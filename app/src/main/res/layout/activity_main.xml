@@ -7,10 +7,53 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="net.ojava.noughtsandcrosses.MainActivity">
+    tools:context="net.ojava.noughtsandcrosses.MainActivity"
+    android:background="@mipmap/background">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <Button
+        android:layout_width="200dip"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="@string/single_start"
+        android:id="@+id/singleBtn"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp" />
+
+    <Button
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:text="@string/network_pk"
+        android:id="@+id/networkBtn"
+        android:layout_below="@+id/singleBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp" />
+
+    <Button
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:text="@string/score_history"
+        android:id="@+id/scoreBtn"
+        android:layout_below="@+id/networkBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp" />
+
+    <Button
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:text="@string/help"
+        android:id="@+id/helpBtn"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/scoreBtn"
+        android:layout_alignLeft="@+id/networkBtn"
+        android:layout_alignStart="@+id/networkBtn" />
+
+    <Button
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:text="@string/about_us"
+        android:id="@+id/aboutBtn"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/helpBtn"
+        android:layout_alignLeft="@+id/helpBtn"
+        android:layout_alignStart="@+id/helpBtn" />
 </RelativeLayout>

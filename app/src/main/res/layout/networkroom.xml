@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="net.ojava.noughtsandcrosses.NetworkRoomActivity">
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="net.ojava.noughtsandcrosses.LoginFragment"
+        android:id="@+id/loginFragment"
+        tools:layout="@layout/login_fragment" />
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="net.ojava.noughtsandcrosses.InviteFragment"
+        android:id="@+id/inviteFragment"
+        tools:layout="@layout/invite_fragment" />
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="net.ojava.noughtsandcrosses.GameFragment"
+        android:id="@+id/gameFragment"
+        tools:layout="@layout/game_fragment" />
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="net.ojava.noughtsandcrosses.GameOverFragment"
+        android:id="@+id/gameOverFragment"
+        tools:layout="@layout/gameover_fragment" />
+</RelativeLayout>

@@ -34,7 +34,8 @@
         android:id="@+id/pwdEditText"
         android:layout_alignTop="@+id/resultTextView"
         android:layout_toRightOf="@id/resultTextView"
-        android:inputType="" />
+        android:inputType=""
+        android:password="true" />
 
     <TextView
         android:layout_width="100dip"
@@ -54,7 +55,8 @@
         android:layout_alignTop="@+id/confirmPwdTextView"
         android:layout_toRightOf="@+id/confirmPwdTextView"
         android:layout_toEndOf="@+id/confirmPwdTextView"
-        android:inputType="" />
+        android:inputType=""
+        android:password="true" />
 
     <TextView
         android:layout_width="100dip"

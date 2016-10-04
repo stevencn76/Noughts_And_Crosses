@@ -53,6 +53,8 @@ public class InviteFragment extends Fragment {
             }
         });
 
+        nameEditText.setText(DataManager.getInstance().getRivalName());
+
         return view;
     }
 
